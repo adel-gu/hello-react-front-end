@@ -61,8 +61,6 @@ This repo is a simple React project that displays random greeting messages provi
   </ul>
 </details>
 
-<details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>

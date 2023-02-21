@@ -4,14 +4,12 @@ import { Provider } from 'react-redux';
 import store from './redux/configureStore';
 import Greeting from './components/Greeting';
 
-const App = () => {
-  return (
-    <Provider store={store}>
-      <Routes>
-        <Route path="/" element={<Greeting />} />
-      </Routes>
-    </Provider>
-  );
-};
+const App = () => (
+  <Provider store={store}>
+    <Routes>
+      <Route path="/" element={<Greeting />} />
+    </Routes>
+  </Provider>
+);
 
 export default App;
